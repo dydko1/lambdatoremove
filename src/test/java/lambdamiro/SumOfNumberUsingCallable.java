@@ -8,8 +8,8 @@ import java.util.concurrent.*;
 import java.util.stream.IntStream;
 
 public class SumOfNumberUsingCallable {
-    public static int[] array = IntStream.rangeClosed(0, 5000).toArray();
-    public static int total = IntStream.rangeClosed(0, 5000).sum();
+    public static int[] array = IntStream.rangeClosed(0, 5).toArray();
+    public static int total = IntStream.rangeClosed(0, 5).sum();
 
     @Test
     public void sum() throws InterruptedException, ExecutionException {
@@ -17,6 +17,7 @@ public class SumOfNumberUsingCallable {
             int sum = 0;
             for (int i = 0; i < array.length; i++) {
                 sum += i;
+                System.out.println("Callable_1");
             }
             return sum;
         };
@@ -24,7 +25,8 @@ public class SumOfNumberUsingCallable {
         Callable callable2 = () -> {
             int sum = 0;
             for (int i = array.length / 2; i < array.length; i++) {
-
+                sum = sum + array[i];
+                System.out.println("Callable_2");
             }
             return sum;
         };
