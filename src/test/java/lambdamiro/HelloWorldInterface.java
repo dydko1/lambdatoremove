@@ -1,2 +1,5 @@
-package lambdamiro;public interface HelloWorldInterface {
+package lambdamiro;
+
+public interface HelloWorldInterface {
+    public String sayHelloWorld();
 }

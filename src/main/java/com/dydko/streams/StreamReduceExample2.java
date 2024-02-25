@@ -1,6 +1,6 @@
 package com.dydko.streams;
 
-import com.modernjava.funcprogramming.Instructors;
+import com.dydko.funcprogramming.Instructors;
 
 import java.util.Optional;
 

@@ -1,7 +1,7 @@
 package com.dydko.streams;
 
-import com.modernjava.funcprogramming.Instructor;
-import com.modernjava.funcprogramming.Instructors;
+import com.dydko.funcprogramming.Instructor;
+import com.dydko.funcprogramming.Instructors;
 
 import java.util.Comparator;
 import java.util.Optional;

@@ -11,7 +11,7 @@ public class MathOperationsExample implements Calculator {
         System.out.println("Calculator override using lambda " + calculator.sum(3,2));
 
         System.out.println("Subtract: " + mathOperationsExample.subtract(4,2));
-        System.out.println("Multiply: " + multiply(4,2));
+        System.out.println("Multiply: " + Calculator.multiply(4,2));
 
     }
 

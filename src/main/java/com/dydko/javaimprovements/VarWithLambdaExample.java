@@ -1,7 +1,7 @@
 package com.dydko.javaimprovements;
 
-import com.modernjava.funcprogramming.Instructor;
-import com.modernjava.funcprogramming.Instructors;
+import com.dydko.funcprogramming.Instructor;
+import com.dydko.funcprogramming.Instructors;
 
 import java.util.function.BiFunction;
 import java.util.function.Predicate;

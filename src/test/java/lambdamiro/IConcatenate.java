@@ -1,4 +1,5 @@
 package lambdamiro;
 
-public class IConcatena {
+public interface IConcatenate {
+    public String concatenate(String a, String b);
 }
