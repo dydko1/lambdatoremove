@@ -22,7 +22,7 @@ public class StreamExample {
                 .filter(p1)
                 .filter(p2)
                 .peek(System.out::println)
-                .collect(Collectors.toMap(Instructor::getName, Instructor::getCourse));
+                .collect(Collectors.toMap(Instructor::getName, Instructor::getCourses));
         System.out.println(map);
     }
 }

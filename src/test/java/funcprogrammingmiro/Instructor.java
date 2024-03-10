@@ -13,5 +13,5 @@ public class Instructor {
     private String title;
     private String gender;
     private boolean onlineCourse;
-    private List<String> course;
+    private List<String> courses;
 }

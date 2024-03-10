@@ -24,7 +24,7 @@ public class ConsumerExample2 {
 
         System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXX");
         Consumer<Instructor> c3 = instructor -> {
-            System.out.println(instructor.getCourse());
+            System.out.println(instructor.getCourses());
             System.out.println(":::::::::::::::::::");
         };
 
